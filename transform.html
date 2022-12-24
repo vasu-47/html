@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms in css</title>
+    <style>
+        .child{
+            border:2px solid greenyellow;
+            margin:5px;
+            transition:all 5s;
+        }
+        .a1:hover{
+            transform:rotate(360deg);
+        }
+        .b1:hover{
+            transform:translate(200px);
+        }
+        .c1:hover{
+            transform:rotate(60deg)
+        }
+        .parent{
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child a1">
+            <h1>Java developer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, suscipit.</p>
+        </div>
+        <div class="child b2">
+            <h1>Android developer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, id?</p>
+        </div>
+        <div class="child c1">
+            <h1>Web Developer</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, odit?</p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
